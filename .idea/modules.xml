@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../Rails/relevant/Nfrel/.idea/Nfrel.iml" filepath="$PROJECT_DIR$/../../../Rails/relevant/Nfrel/.idea/Nfrel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Rails/relevant/Trelevant/.idea/Trelevant.iml" filepath="$PROJECT_DIR$/../../../Rails/relevant/Trelevant/.idea/Trelevant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/switchup_frontend.iml" filepath="$PROJECT_DIR$/.idea/switchup_frontend.iml" />
+    </modules>
+  </component>
+</project>
