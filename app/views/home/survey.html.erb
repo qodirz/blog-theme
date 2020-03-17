@@ -1,0 +1,102 @@
+<main class="q-pt">
+  <header>
+    <h1>Free Personality Test</h1>
+    <div class="trademark">subtitle</div>
+  </header>
+  <section class="tips">
+    <div class="tip-highlight first"></div>
+    <div class="tip-highlight second"></div>
+    <div class="tip-highlight third"></div>
+    <div class="tip"><img src="/assets/test-header-1.svg"> <div class="text"><div class="title">
+      Fast &amp; Easy
+    </div>
+      <div class="subtitle">
+        Takes less than 12 minutes.
+      </div>
+    </div>
+    </div>
+    <div class="tip">
+      <img src="/assets/test-header-2.svg">
+      <div class="text">
+        <div class="title">
+          Be Yourself
+        </div>
+        <div class="subtitle">
+          Answer honestly, even if you don’t like the answer.
+        </div>
+      </div>
+    </div>
+    <div class="tip">
+      <img src="/assets/test-header-3.svg">
+      <div class="text">
+        <div class="title">
+          Complete It All
+        </div> <div class="subtitle">
+        Try not to leave any "neutral" answers.
+      </div>
+      </div>
+    </div>
+    <svg viewBox="0 0 600 105" preserveAspectRatio="none" class="shape">
+      <polygon points="600 61.82 476.72 105 351 74.68 157 105 0 55.39 0 -87 600 -87 600 61.82" class="c1">
+      </polygon>
+    </svg>
+    <div class="shadow"></div>
+  </section>
+  <div>
+    <div dusk="quiz-component" data-chunk="quiz-chunk">
+      <div id="progress-wrapper" class="progress-wrapper">
+        <div class="percentage">0%</div>
+        <div class="progress-bar">
+          <div class="filler" style="width: 0%;"></div>
+        </div>
+      </div>
+      <div class="test-questions comp">
+        <% (1..5).each do |q| %>
+          <div class="question">
+            <div class="statement">
+              <%= q %> You enjoy vibrant social events with lots of people.
+            </div>
+            <div class="decision">
+              <div class="caption agree">Agree</div>
+              <div class="options">
+                <div class="option agree max active">
+                  <span class="far fa-check"></span>
+                </div>
+                <div class="option agree med">
+                  <span class="far fa-check"></span>
+                </div>
+                <div class="option agree min">
+                  <span class="far fa-check"></span>
+                </div>
+                <div dusk="quiz-neutral" class="option neutral">
+                  <span class="far fa-check"></span>
+                </div>
+                <div class="option disagree min">
+                  <span class="far fa-check"></span>
+                </div>
+                <div class="option disagree med">
+                  <span class="far fa-check"></span>
+                </div>
+                <div class="option disagree max">
+                  <span class="far fa-check"></span>
+                </div>
+              </div>
+              <div class="caption disagree">Disagree</div>
+            </div>
+            <div class="decision mobile">
+              <div class="caption agree">Agree</div>
+              <div class="caption disagree">Disagree</div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+
+      <div class="action-row">
+        <button type="button" class="btn btn-action" style="padding-top: 0px;" >
+          Next
+          <span class="fas fa-arrow-right" style="top: auto"></span>
+        </button> <!---->
+      </div>
+    </div>
+  </div>
+</main>
