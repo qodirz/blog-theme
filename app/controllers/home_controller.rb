@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def survey
   end
+
+  def form
+  end
 end
